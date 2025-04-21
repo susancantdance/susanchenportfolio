@@ -1,0 +1,27 @@
+/* .main {
+  /* grid-column: 2 / 3; */
+/* background-color: rgb(159, 205, 226); */
+
+/* padding: 50px;
+  margin-left: 30%;
+  overscroll-behavior: none;*/
+/* } */
+
+/* body {
+  background-color: rgb(159, 205, 226);
+
+} */
+
+.section {
+  color: rgb(186, 196, 221);
+  margin: 200px 50px 100px 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+}
