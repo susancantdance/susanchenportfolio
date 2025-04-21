@@ -1,50 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Erica+One&family=Patua+One&display=swap");
 
 .body {
-  /* display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  /* overscroll-behavior-y: contain; */
-  /* position: fixed; */
-  /* background-color: black;  */
-
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 4fr 6fr;
-  /* background-color: rgb(67, 112, 130); */
-  /* overflow: auto; */
-  /* background-image: url("./src/assets/catlick.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed; */
 }
-
-/* .timmy {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  width: 170px;
-  position: fixed;
-  z-index: 1;
-  top: 20px;
-  left: 50px;
-} */
 
 html {
   overscroll-behavior: none;
 }
 
 body {
-  /* overscroll-behavior: none;
-  background-image: url("./assets/painted.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed; */
   background-color: rgb(65, 73, 90);
 }
 
 .leftnav {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
-  /* background-color: rgb(67, 112, 130); */
-  /* overflow: auto; */
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -70,4 +42,36 @@ body {
   padding: 50px 50px 50px 50px;
   /* margin-left: 30%; */
   /* overscroll-behavior: none; */
+}
+
+@media (max-width: 800px) {
+  .body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .leftnav {
+    background-color: rgb(65, 73, 90);
+    /* overflow: auto; */
+    display: block;
+    /* flex-direction: column;
+    align-items: flex-end; */
+
+    position: sticky;
+    top: 0;
+    /* width: 30%; */
+
+    padding-top: 0px;
+    /* height: 100%; */
+    /* justify-self: start;*/
+
+    margin-left: 50px;
+
+    /* z-index: 1; */
+  }
+
+  div {
+    display: inline-block;
+    padding: 0px 20px 0px 0px;
+  }
 }

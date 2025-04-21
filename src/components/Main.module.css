@@ -18,10 +18,26 @@
   font-family: "Roboto", sans-serif;
   font-weight: lighter;
   font-style: normal;
+  /* background-color: aqua; */
 }
 
 h2 {
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
   font-style: normal;
+}
+
+@media (max-width: 800px) {
+  .section {
+    color: rgb(186, 196, 221);
+    margin: -20px 0px 100px 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: stretch;
+    /* background-color: blueviolet; */
+  }
 }
