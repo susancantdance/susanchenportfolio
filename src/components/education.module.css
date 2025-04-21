@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin: 0px 0px 20px 0px;
+}
+
+.job {
+  display: flex;
+  flex-direction: column;
+}
+
+.jobtitle {
+  font-weight: bold;
+}
+
+.jobcompany {
+  font-style: italic;
+}
+
+.date {
+  font-weight: bold;
+}

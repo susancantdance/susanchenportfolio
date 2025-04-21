@@ -11,15 +11,17 @@ import useOnScreen from "./components/useOnScreen";
 function App() {
   const aboutRef = useRef(null);
   const projectsRef = useRef(null);
+  const educationRef = useRef(null);
   const resumeRef = useRef(null);
-  const refArray = [aboutRef, projectsRef, resumeRef];
+  const refArray = [aboutRef, projectsRef, educationRef, resumeRef];
 
-  const elementRefs = [useRef(null), useRef(null), useRef(null)];
+  const elementRefs = [useRef(null), useRef(null), useRef(null), useRef(null)];
 
   const onScreen = [
     useOnScreen(elementRefs[0]),
     useOnScreen(elementRefs[1]),
     useOnScreen(elementRefs[2]),
+    useOnScreen(elementRefs[3]),
   ];
 
   return (

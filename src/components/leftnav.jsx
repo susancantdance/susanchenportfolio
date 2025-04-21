@@ -1,5 +1,5 @@
 import styles from "./LeftNav.module.css";
-import { useState } from "react";
+// import { useState } from "react";
 
 // import { useRef } from "react";
 
@@ -13,7 +13,9 @@ function Leftnav({ refArray, onScreen }) {
   // ]);
 
   console.log("rendering");
-  console.log(onScreen[0] + " " + onScreen[1] + " " + onScreen[2]);
+  console.log(
+    onScreen[0] + " " + onScreen[1] + " " + onScreen[2] + " " + onScreen[3]
+  );
 
   // useEffect(() => {
   //   const height = document.querySelector("body").scrollHeight;
@@ -65,7 +67,13 @@ function Leftnav({ refArray, onScreen }) {
         className={`${styles.link} ${onScreen[2] ? styles.viewing : ""}`}
         onClick={() => selectLink(2)}
       >
-        resume
+        education
+      </div>
+      <div
+        className={`${styles.link} ${onScreen[3] ? styles.viewing : ""}`}
+        onClick={() => selectLink(3)}
+      >
+        work
       </div>
       <div className={""}>GITHUB ICON &nbsp;&nbsp;&nbsp; LINKEDIN ICON</div>
     </>

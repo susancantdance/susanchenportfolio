@@ -1,4 +1,7 @@
 import styles from "./Main.module.css";
+import { Projects } from "./projects.jsx";
+import { Resume } from "./resume.jsx";
+import { Education } from "./education.jsx";
 // import { useRef } from "react";
 
 function Main({ refArray, elementRefs }) {
@@ -38,58 +41,21 @@ function Main({ refArray, elementRefs }) {
       </div>
       <div ref={refArray[1]} className={styles.section}>
         <h2>Projects</h2>
-        <p ref={elementRefs[1]}>
-          This is a description of stuff. This is a description of stuff. This
-          is a description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff.This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff.This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff.This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff.
-        </p>
+        <div ref={elementRefs[1]}>
+          <Projects />
+        </div>
       </div>
       <div ref={refArray[2]} className={styles.section}>
-        <h2>Resume</h2>
-        <p ref={elementRefs[2]}>
-          This is a description of stuff. This is a description of stuff. This
-          is a description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff.This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff.This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff.This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff.
-        </p>
+        <h2>Education</h2>
+        <div ref={elementRefs[2]}>
+          <Education />
+        </div>
+      </div>
+      <div ref={refArray[3]} className={styles.section}>
+        <h2>Work</h2>
+        <div ref={elementRefs[3]}>
+          <Resume />
+        </div>
       </div>
     </div>
   );
