@@ -66,12 +66,23 @@ body {
     /* justify-self: start;*/
 
     margin-left: 50px;
+    width: 100%;
 
     /* z-index: 1; */
   }
 
   div {
     display: inline-block;
-    padding: 0px 20px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .main {
+    display: flex;
+    /* flex-direction: column; */
+    background-color: rgb(65, 73, 90);
+    /* overflow: auto; */
+    /* padding: 50px 50px 50px 50px; */
+    /* margin-left: 30%; */
+    /* overscroll-behavior: none; */
   }
 }

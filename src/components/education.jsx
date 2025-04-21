@@ -14,9 +14,9 @@ function Education() {
             counter this time to let the human know am coming back.{" "}
           </span>
         </div>
-        <div className={styles.dates}>
+        {/* <div className={styles.dates}>
           <span className={styles.date}>Date - Date</span>
-        </div>
+        </div> */}
       </div>
       <div className={styles.section}>
         <div className={styles.job}>
@@ -33,9 +33,9 @@ function Education() {
             counter this time to let the human know am coming back.
           </span>
         </div>
-        <div className={styles.dates}>
+        {/* <div className={styles.dates}>
           <span className={styles.date}>Date - Date</span>
-        </div>
+        </div> */}
       </div>{" "}
       <div className={styles.section}>
         <div className={styles.job}>
@@ -52,9 +52,9 @@ function Education() {
             counter this time to let the human know am coming back.{" "}
           </span>
         </div>
-        <div className={styles.dates}>
+        {/* <div className={styles.dates}>
           <span className={styles.date}>Date - Date</span>
-        </div>
+        </div> */}
       </div>
     </div>
   );
