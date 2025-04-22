@@ -2,6 +2,7 @@ import styles from "./Main.module.css";
 import { Projects } from "./projects.jsx";
 import { Resume } from "./resume.jsx";
 import { Education } from "./education.jsx";
+import { About } from "./about.jsx";
 // import { useRef } from "react";
 
 function Main({ refArray, elementRefs }) {
@@ -16,28 +17,9 @@ function Main({ refArray, elementRefs }) {
     <div className={styles.main}>
       <div ref={refArray[0]} className={styles.section}>
         <h2>About Me</h2>
-        <p ref={elementRefs[0]}>
-          This is a description of stuff. This is a description of stuff. This
-          is a description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff.This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff.This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff.This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff. This is a
-          description of stuff. This is a description of stuff.
-        </p>
+        <div ref={elementRefs[0]}>
+          <About />
+        </div>
       </div>
       <div ref={refArray[1]} className={styles.section}>
         <h2>Projects</h2>

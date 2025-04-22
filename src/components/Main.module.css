@@ -30,17 +30,19 @@ h2 {
 
 @media (max-width: 800px) {
   .section {
+    scroll-margin-top: 200px;
     color: rgb(186, 196, 221);
-    margin: -20px 0px 100px 0px;
+    margin: 0px 0px 100px 0px;
+    /* margin-bottom: 50px; */
     font-family: "Roboto", sans-serif;
     font-weight: lighter;
     font-style: normal;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: start;
-    justify-items: start;
+    justify-items: start; */
     width: 100%;
-    scroll-margin-top: 200px;
+
     /* background-color: blueviolet; */
   }
 }

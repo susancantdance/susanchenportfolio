@@ -36,13 +36,19 @@ function Leftnav({ refArray, onScreen }) {
     // newArray[id] = styles.current;
     // updateStyles(newArray);
 
+    let position = "start";
+
+    if (id == 0) {
+      position = "center";
+    }
+
     refArray[id].current.scrollIntoView(
       // true
       {
         behavior: "smooth",
-        block: "start",
+        block: position,
         // inline: "nearest",
-        // top: 300,
+        top: 300,
         // left: 400,
       }
     );
