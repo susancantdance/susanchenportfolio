@@ -41,6 +41,7 @@
     font-weight: lighter;
     font-style: italic;
     margin: 0px 20px 0px 0px;
+    position: relative;
   }
 
   .link {
@@ -53,7 +54,7 @@
     font-weight: lighter;
     font-style: normal;
 
-    /* position: absolute; */
+    position: relative;
   }
 
   .title {
