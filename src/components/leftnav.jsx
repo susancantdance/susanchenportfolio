@@ -48,7 +48,7 @@ function Leftnav({ refArray, onScreen }) {
         behavior: "smooth",
         block: position,
         // inline: "nearest",
-        top: 300,
+        // top: 300,
         // left: 400,
       }
     );

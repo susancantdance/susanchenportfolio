@@ -38,7 +38,7 @@ body {
 .main {
   grid-column: 2 / 3;
   background-color: rgb(65, 73, 90);
-  overflow: auto;
+  /* overflow: auto; */
   padding: 50px 50px 50px 50px;
   /* margin-left: 30%; */
   /* overscroll-behavior: none; */
