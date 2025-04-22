@@ -15,26 +15,26 @@ function Main({ refArray, elementRefs }) {
 
   return (
     <div className={styles.main}>
-      <div ref={refArray[0]} className={styles.section}>
-        <h2>About Me</h2>
+      <div className={styles.section}>
+        <h2 ref={refArray[0]}>About Me</h2>
         <div ref={elementRefs[0]}>
           <About />
         </div>
       </div>
-      <div ref={refArray[1]} className={styles.section}>
-        <h2>Projects</h2>
+      <div className={styles.section}>
+        <h2 ref={refArray[1]}>Projects</h2>
         <div ref={elementRefs[1]}>
           <Projects />
         </div>
       </div>
-      <div ref={refArray[2]} className={styles.section}>
-        <h2>Education</h2>
+      <div className={styles.section}>
+        <h2 ref={refArray[2]}>Education</h2>
         <div ref={elementRefs[2]}>
           <Education />
         </div>
       </div>
-      <div ref={refArray[3]} className={styles.section}>
-        <h2>Work</h2>
+      <div className={styles.section}>
+        <h2 ref={refArray[3]}>Work</h2>
         <div ref={elementRefs[3]}>
           <Resume />
         </div>
