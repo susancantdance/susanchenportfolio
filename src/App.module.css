@@ -48,6 +48,8 @@ body {
   .body {
     display: flex;
     flex-direction: column;
+    max-width: 100%;
+    background-color: rgb(65, 73, 90);
   }
 
   .leftnav {
@@ -66,7 +68,7 @@ body {
     /* justify-self: start;*/
 
     margin-left: 50px;
-    width: 100%;
+    max-width: 100%;
 
     /* z-index: 1; */
   }
@@ -84,5 +86,6 @@ body {
     /* padding: 50px 50px 50px 50px; */
     /* margin-left: 30%; */
     /* overscroll-behavior: none; */
+    max-width: 100%;
   }
 }
