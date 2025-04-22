@@ -31,10 +31,18 @@ function Leftnav({ refArray, onScreen }) {
   //   });
   // }, []);
 
+  let clicked = [false, false, false, false];
+
   const selectLink = (id) => {
     // let newArray = [styles.link, styles.link, styles.link];
     // newArray[id] = styles.current;
     // updateStyles(newArray);
+    for (let i = 0; i < clicked.length; i++) {
+      if (i != id) {
+        clicked[id] = false;
+      }
+    }
+    clicked[id] = true;
 
     let position = "start";
 
@@ -58,25 +66,32 @@ function Leftnav({ refArray, onScreen }) {
     <>
       <p className={styles.title}>susan chen</p>
       <div
-        className={`${styles.link} ${onScreen[0] ? styles.viewing : ""}`}
+        className={`${styles.link} ${onScreen[0] ? styles.viewing : ""} ${
+          clicked[0] ? styles.current : ""
+        }`}
         onClick={() => selectLink(0)}
       >
         about
       </div>
       <div
-        className={`${styles.link} ${onScreen[1] ? styles.viewing : ""}`}
+        className={`${styles.link} ${onScreen[1] ? styles.viewing : ""} ${
+          clicked[1] ? styles.current : ""
+        }`}
         onClick={() => selectLink(1)}
       >
         projects
       </div>
       <div
-        className={`${styles.link} ${onScreen[2] ? styles.viewing : ""}`}
+        className={`${styles.link} ${onScreen[2] ? styles.viewing : ""} ${
+          clicked[2] ? styles.current : ""
+        }`}
         onClick={() => selectLink(2)}
       >
         education
       </div>
       <div
-        className={`${styles.link} ${onScreen[3] ? styles.viewing : ""}`}
+        className={`${styles.link} ${onScreen[3] ? styles.viewing : ""}
+        ${clicked[3] ? styles.current : ""}`}
         onClick={() => selectLink(3)}
       >
         work
