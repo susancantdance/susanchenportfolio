@@ -17,25 +17,7 @@ function Leftnav({ refArray, onScreen }) {
     onScreen[0] + " " + onScreen[1] + " " + onScreen[2] + " " + onScreen[3]
   );
 
-  // useEffect(() => {
-  //   const height = document.querySelector("body").scrollHeight;
-  //   window.addEventListener("scroll", () => {
-  //     if (window.scrollY > height / 3) {
-  //       updateStyles([styles.link, styles.current, styles.link]);
-  //     } else if (window.scrollY > 2 * (height / 3)) {
-  //       updateStyles([styles.link, styles.link, styles.current]);
-  //     }
-  //     // else {
-  //     //   setscrolltopdata(styles.);
-  //     // }
-  //   });
-  // }, []);
-
   const selectLink = (id) => {
-    // let newArray = [styles.link, styles.link, styles.link];
-    // newArray[id] = styles.current;
-    // updateStyles(newArray);
-
     let position = "start";
 
     if (id == 0) {
