@@ -26,6 +26,7 @@ h2 {
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
   font-style: normal;
+  scroll-margin-top: 200px;
 }
 
 @media (max-width: 800px) {
