@@ -4,12 +4,14 @@ export default function useOnScreen(ref) {
   const [isOnScreen, setIsOnScreen] = useState(false);
   const observerRef = useRef(null);
 
+  const theRoot = document.querySelector(".main");
+
   useEffect(() => {
     observerRef.current = new IntersectionObserver(
       ([entry]) => setIsOnScreen(entry.isIntersecting),
-      { root: document.body, threshold: 0.5 }
+      { root: theRoot, threshold: 0.5 }
     );
-  }, []);
+  }, [theRoot]);
 
   useEffect(() => {
     observerRef.current.observe(ref.current);
