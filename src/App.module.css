@@ -45,6 +45,11 @@ body {
 }
 
 @media (max-width: 800px) {
+  body {
+    background-color: rgb(65, 73, 90);
+    max-width: 100%;
+  }
+
   .body {
     display: flex;
     flex-direction: column;
@@ -55,10 +60,8 @@ body {
   .leftnav {
     background-color: rgb(65, 73, 90);
     /* overflow: auto; */
-    display: block;
-    /* flex-direction: column;
-    align-items: flex-end; */
-
+    display: inline;
+    align-self: stretch;
     position: sticky;
     top: 0;
     /* width: 30%; */
