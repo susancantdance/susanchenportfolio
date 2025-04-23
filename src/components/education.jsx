@@ -5,13 +5,12 @@ function Education() {
     <div className={styles.container}>
       <div className={styles.section}>
         <div className={styles.job}>
-          <span className={styles.jobtitle}>Course Completion</span>
+          <span className={styles.jobtitle}>90% Course Completion</span>
           <span className={styles.jobcompany}>Odin Project</span>
           <span className={styles.jobdesc}>
-            Spot something, big eyes, big eyes, crouch, shake butt, prepare to
-            pounce love you, then bite you yet jump on counter removed by human
-            jump on counter again removed by human meow before jumping on
-            counter this time to let the human know am coming back.{" "}
+            Continuing education with self-paced open source online course that
+            focuses on creating projects with vanilla HTML and CSS, React, and
+            full stack Javascript with NodeJs.{" "}
           </span>
         </div>
         {/* <div className={styles.dates}>
@@ -27,10 +26,8 @@ function Education() {
             University of Southern California
           </span>
           <span className={styles.jobdesc}>
-            Spot something, big eyes, big eyes, crouch, shake butt, prepare to
-            pounce love you, then bite you yet jump on counter removed by human
-            jump on counter again removed by human meow before jumping on
-            counter this time to let the human know am coming back.
+            Completed full-time MBA program with a chosen focus on
+            entrepreneurship and product development.
           </span>
         </div>
         {/* <div className={styles.dates}>
@@ -46,10 +43,8 @@ function Education() {
             University of California, Los Angeles
           </span>
           <span className={styles.jobdesc}>
-            Spot something, big eyes, big eyes, crouch, shake butt, prepare to
-            pounce love you, then bite you yet jump on counter removed by human
-            jump on counter again removed by human meow before jumping on
-            counter this time to let the human know am coming back.{" "}
+            Studied computer algorithms, operating systems, architecture,
+            software engineering and web development.{" "}
           </span>
         </div>
         {/* <div className={styles.dates}>
