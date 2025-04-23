@@ -59,21 +59,20 @@ body {
 
   .leftnav {
     background-color: rgb(251, 243, 228);
-    /* overflow: auto; */
+    background-image: url("assets/pinkblob.png");
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: 10% 20%;
+
     display: inline;
     align-self: stretch;
     position: sticky;
     top: 0;
-    /* width: 30%; */
 
     padding-top: 0px;
-    /* height: 100%; */
-    /* justify-self: start;*/
 
     margin-left: 50px;
     max-width: 100%;
-
-    /* z-index: 1; */
   }
 
   div {

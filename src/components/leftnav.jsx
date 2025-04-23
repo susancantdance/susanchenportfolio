@@ -1,18 +1,6 @@
 import styles from "./LeftNav.module.css";
-// import pink from "../assets/pinkblob.png";
-// import { useState } from "react";
-
-// import { useRef } from "react";
 
 function Leftnav({ refArray, onScreen }) {
-  // const [scrolltopdata, setscrolltopdata] = useState("");
-
-  // const [styleArray, updateStyles] = useState([
-  //   styles.link,
-  //   styles.link,
-  //   styles.link,
-  // ]);
-
   console.log("rendering");
   console.log(
     onScreen[0] + " " + onScreen[1] + " " + onScreen[2] + " " + onScreen[3]
@@ -39,9 +27,6 @@ function Leftnav({ refArray, onScreen }) {
 
   return (
     <>
-      {/* <div>
-        <img className={styles.pink} src={pink}></img>
-      </div> */}
       <p className={styles.title}>susan chen</p>
       <div
         className={`${styles.link} ${onScreen[0] ? styles.viewing : ""}`}
