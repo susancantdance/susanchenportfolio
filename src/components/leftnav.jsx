@@ -1,4 +1,5 @@
 import styles from "./LeftNav.module.css";
+// import pink from "../assets/pinkblob.png";
 // import { useState } from "react";
 
 // import { useRef } from "react";
@@ -30,7 +31,7 @@ function Leftnav({ refArray, onScreen }) {
         behavior: "smooth",
         block: position,
         // inline: "nearest",
-        // top: 300,
+
         // left: 400,
       }
     );
@@ -38,6 +39,9 @@ function Leftnav({ refArray, onScreen }) {
 
   return (
     <>
+      {/* <div>
+        <img className={styles.pink} src={pink}></img>
+      </div> */}
       <p className={styles.title}>susan chen</p>
       <div
         className={`${styles.link} ${onScreen[0] ? styles.viewing : ""}`}
@@ -63,7 +67,11 @@ function Leftnav({ refArray, onScreen }) {
       >
         work
       </div>
-      <div className={""}>GITHUB ICON &nbsp;&nbsp;&nbsp; LINKEDIN ICON</div>
+      <div>
+        <img className={styles.github} src="github-mark.svg" />
+        &nbsp;&nbsp;&nbsp;
+        <img className={styles.github} src="linkedin.svg" />
+      </div>
     </>
   );
 }

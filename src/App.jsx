@@ -6,7 +6,7 @@ import { Header } from "./components/header.jsx";
 import { useRef } from "react";
 import styles from "./App.module.css";
 import useOnScreen from "./components/useOnScreen";
-// import timmy from "./assets/timmy.png";
+// import pink from "./assets/pinkblob.png";
 
 function App() {
   const aboutRef = useRef(null);
@@ -34,9 +34,6 @@ function App() {
           <Main refArray={refArray} elementRefs={elementRefs} />
         </div>
       </div>
-      {/* <div>
-        <img className={styles.timmy} src={timmy}></img>
-      </div> */}
     </>
   );
 }

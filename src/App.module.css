@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Erica+One&family=Patua+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Knewave&display=swap");
 
 .body {
   display: grid;
@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background-color: rgb(65, 73, 90);
+  background-color: rgb(251, 243, 228);
 }
 
 .leftnav {
@@ -37,7 +37,7 @@ body {
 
 .main {
   grid-column: 2 / 3;
-  background-color: rgb(65, 73, 90);
+  background-color: rgb(251, 243, 228);
   /* overflow: auto; */
   padding: 50px 50px 50px 50px;
   /* margin-left: 30%; */
@@ -46,7 +46,7 @@ body {
 
 @media (max-width: 800px) {
   body {
-    background-color: rgb(65, 73, 90);
+    background-color: rgb(251, 243, 228);
     max-width: 100%;
   }
 
@@ -54,11 +54,11 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    background-color: rgb(65, 73, 90);
+    background-color: rgb(251, 243, 228);
   }
 
   .leftnav {
-    background-color: rgb(65, 73, 90);
+    background-color: rgb(251, 243, 228);
     /* overflow: auto; */
     display: inline;
     align-self: stretch;
@@ -84,7 +84,7 @@ body {
   .main {
     display: flex;
     /* flex-direction: column; */
-    background-color: rgb(65, 73, 90);
+    background-color: rgb(251, 243, 228);
     /* overflow: auto; */
     /* padding: 50px 50px 50px 50px; */
     /* margin-left: 30%; */
