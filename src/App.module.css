@@ -59,10 +59,10 @@ body {
 
   .leftnav {
     background-color: rgb(251, 243, 228);
-    background-image: url("assets/pinkblob.png");
+    background-image: url("assets/sun.png");
     background-repeat: no-repeat;
     background-size: 150px;
-    background-position: 10% 20%;
+    background-position: 0% 5%;
 
     display: inline;
     align-self: stretch;
