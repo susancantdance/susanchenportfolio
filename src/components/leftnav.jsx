@@ -52,7 +52,7 @@ function Leftnav({ refArray, onScreen }) {
       >
         work
       </div>
-      <div>
+      <div className={styles.icons}>
         <img className={styles.github} src="github-mark.svg" />
         &nbsp;&nbsp;&nbsp;
         <img className={styles.github} src="InBug-Black.png" />

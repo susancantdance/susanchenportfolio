@@ -26,8 +26,8 @@ function Education() {
             University of Southern California
           </span>
           <span className={styles.jobdesc}>
-            Completed full-time MBA program with a chosen focus on
-            entrepreneurship and product development.
+            Full-time MBA program with a chosen focus on entrepreneurship and
+            product development.
           </span>
         </div>
         {/* <div className={styles.dates}>
@@ -43,8 +43,8 @@ function Education() {
             University of California, Los Angeles
           </span>
           <span className={styles.jobdesc}>
-            Studied computer algorithms, operating systems, architecture,
-            software engineering and web development.{" "}
+            Computer algorithms, operating systems, architecture, software
+            engineering and web development.{" "}
           </span>
         </div>
         {/* <div className={styles.dates}>
