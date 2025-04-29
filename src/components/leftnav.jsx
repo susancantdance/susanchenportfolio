@@ -55,7 +55,7 @@ function Leftnav({ refArray, onScreen }) {
       <div>
         <img className={styles.github} src="github-mark.svg" />
         &nbsp;&nbsp;&nbsp;
-        <img className={styles.github} src="linkedin.svg" />
+        <img className={styles.github} src="InBug-Black.png" />
       </div>
     </>
   );

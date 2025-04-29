@@ -27,6 +27,14 @@ h2 {
   font-weight: bolder;
   font-style: normal;
   scroll-margin-top: 200px;
+  margin: 0px 0px -12px 0px;
+  /* background-color: aqua; */
+}
+
+.squiggle {
+  /* background-color: bisque; */
+  margin: 0px 0px 0px 0px;
+  max-height: 20px;
 }
 
 @media (max-width: 800px) {
