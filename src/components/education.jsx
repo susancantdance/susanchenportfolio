@@ -6,11 +6,11 @@ function Education() {
       <div className={styles.section}>
         <div className={styles.job}>
           <span className={styles.jobtitle}>90% Course Completion</span>
-          <span className={styles.jobcompany}>Odin Project</span>
+          <span className={styles.jobcompany}>The Odin Project</span>
           <span className={styles.jobdesc}>
-            Continuing education with self-paced open source online course that
-            focuses on creating projects with vanilla HTML and CSS, React, and
-            full stack Javascript with NodeJs.{" "}
+            Continuing education with online course, focusing on creating
+            projects with vanilla HTML and CSS, React, and full stack Javascript
+            with NodeJs.{" "}
           </span>
         </div>
         {/* <div className={styles.dates}>
