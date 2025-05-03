@@ -8,10 +8,10 @@ function About() {
         engineer.
       </p>
       <p>
-        My experience in tech includes a CS degree and an extensive career in
-        web product manangement. My technical skills include vanilla HTML, CSS,
-        and Javascript. I have experience building full stack applications with
-        React, Node.js, and Prisma ORM.
+        My experience in tech includes a CS degree from UCLA and an extensive
+        career in product manangement. My technical skills include vanilla HTML,
+        CSS, SQL, and Javascript. I have experience building full stack
+        applications with React, Node.js, and Prisma ORM.
       </p>
       <p>
         {" "}
