@@ -5,14 +5,13 @@ function About() {
     <>
       <p>
         Hello! I'm Susan. I'm looking for my next opportunity as a software
-        engineer. My experience in tech includes a CS degree and an extensive
-        career in web product manangement.{" "}
+        engineer.
       </p>
       <p>
-        From writing games in BASIC as a child to crafting plush toys for
-        charity, being creative has been a guiding force in my life as well as
-        my career. As a product manager, I've partnered closely with engineers
-        to design, build and launch software.
+        My experience in tech includes a CS degree and an extensive career in
+        web product manangement. My technical skills include vanilla HTML, CSS,
+        and Javascript. I have experience building full stack applications with
+        React, Node.js, and Prisma ORM.
       </p>
       <p>
         {" "}
