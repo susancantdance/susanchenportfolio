@@ -1,39 +1,54 @@
 import styles from "./projects.module.css";
 import blogapi from "../assets/blogapi.png";
+import meangirl from "../assets/meangirls.png";
+import memory from "../assets/memory.png";
 
 function Projects() {
   return (
     <div className={styles.container}>
       <div className={styles.section}>
-        <img className={styles.image} src={blogapi} />
+        <a href="https://catlog-ten.vercel.app/">
+          <img className={styles.image} src={blogapi} />
+        </a>
         <div className={styles.desc}>
-          <span className={styles.name}>Full Stack Cat Blog</span> Blogging
-          application utilizing React, Node, PrismaORM. Anyone can read blogs or
-          comments, but users must sign up and authenticate to leave a comment.
-          Blog author can peform CRUD operations on all posts and comments. Yes,
-          it's written by a cat.
+          <a href="https://catlog-ten.vercel.app/" className={styles.name}>
+            <span>Full Stack Cat Blog</span>
+          </a>{" "}
+          Blogging application utilizing React, Node, PrismaORM. Anyone can read
+          blogs or comments, but users must sign up and authenticate to leave a
+          comment. Blog author can peform CRUD operations on all posts and
+          comments. Yes, it's written by a cat.
         </div>
       </div>
       <div className={styles.section}>
-        <div className={styles.image}>I am an image</div>
+        <a href="https://members-only-production-fa93.up.railway.app/">
+          <img className={styles.image} src={meangirl} />
+        </a>
         <div className={styles.desc}>
-          <b>I am the description of the project.</b> Cat ipsum dolor sit amet,
-          plays league of legends stick butt in face so sit on human they not
-          getting up ever. Spend all night ensuring people don't sleep sleep all
-          day curl up and sleep on the freshly laundered towels. Cat mojo try to
-          hold own back foot to clean it but foot reflexively kicks you in face,
-          go into a rage and bite own foot, hard milk the cow if it fits, i sits
+          <a
+            href="https://members-only-production-fa93.up.railway.app/"
+            className={styles.name}
+          >
+            <span>Mean Girls Burn Book</span>
+          </a>{" "}
+          Members-only messageboard that authenticates using basic passport.js
+          user/password and encrypting with bcrypt. All users can read the burn
+          book. Users can become members by entering a password on a secret
+          page. Members can then leave a message, but only Regina George can see
+          who wrote what.
         </div>
       </div>
       <div className={styles.section}>
-        <div className={styles.image}>I am an image</div>
+        <a href="https://memory-phi-bay.vercel.app/">
+          <img className={styles.image} src={memory} />
+        </a>
         <div className={styles.desc}>
-          <b>I am the description of the project.</b> Cat ipsum dolor sit amet,
-          plays league of legends stick butt in face so sit on human they not
-          getting up ever. Spend all night ensuring people don't sleep sleep all
-          day curl up and sleep on the freshly laundered towels. Cat mojo try to
-          hold own back foot to clean it but foot reflexively kicks you in face,
-          go into a rage and bite own foot, hard milk the cow if it fits, i sits
+          <a href="https://memory-phi-bay.vercel.app/" className={styles.name}>
+            <span>Memory Game</span>
+          </a>{" "}
+          React application that uses public cat api to show 10 random breeds.
+          Players must only click on each cat once as the grid scrambles in
+          order to win. Built to understand concepts of state and React hooks.
         </div>
       </div>
     </div>

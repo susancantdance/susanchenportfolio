@@ -32,7 +32,7 @@ body {
   justify-self: right;
   margin-right: 50px;
 
-  /* z-index: 1; */
+  z-index: 1;
 }
 
 .main {
@@ -59,10 +59,11 @@ body {
 
   .leftnav {
     background-color: rgb(251, 243, 228);
+    /* background-color: blue; */
     background-image: url("assets/sun.png");
     background-repeat: no-repeat;
     background-size: 150px;
-    background-position: 0% 5%;
+    background-position: 10% 5%;
 
     display: inline;
     align-self: stretch;
@@ -71,7 +72,8 @@ body {
 
     padding-top: 0px;
 
-    margin-left: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
     max-width: 100%;
   }
 

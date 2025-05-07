@@ -19,7 +19,6 @@ function Leftnav({ refArray, onScreen }) {
         behavior: "smooth",
         block: position,
         // inline: "nearest",
-
         // left: 400,
       }
     );
@@ -28,34 +27,40 @@ function Leftnav({ refArray, onScreen }) {
   return (
     <>
       <p className={styles.title}>susan chen</p>
-      <div
-        className={`${styles.link} ${onScreen[0] ? styles.viewing : ""}`}
-        onClick={() => selectLink(0)}
-      >
-        about
-      </div>
-      <div
-        className={`${styles.link} ${onScreen[1] ? styles.viewing : ""}`}
-        onClick={() => selectLink(1)}
-      >
-        projects
-      </div>
-      <div
-        className={`${styles.link} ${onScreen[2] ? styles.viewing : ""}`}
-        onClick={() => selectLink(2)}
-      >
-        education
-      </div>
-      <div
-        className={`${styles.link} ${onScreen[3] ? styles.viewing : ""}`}
-        onClick={() => selectLink(3)}
-      >
-        work
+      <div className={styles.linksection}>
+        <div
+          className={`${styles.link} ${onScreen[0] ? styles.viewing : ""}`}
+          onClick={() => selectLink(0)}
+        >
+          about
+        </div>
+        <div
+          className={`${styles.link} ${onScreen[1] ? styles.viewing : ""}`}
+          onClick={() => selectLink(1)}
+        >
+          projects
+        </div>
+        <div
+          className={`${styles.link} ${onScreen[2] ? styles.viewing : ""}`}
+          onClick={() => selectLink(2)}
+        >
+          education
+        </div>
+        <div
+          className={`${styles.link} ${onScreen[3] ? styles.viewing : ""}`}
+          onClick={() => selectLink(3)}
+        >
+          work
+        </div>
       </div>
       <div className={styles.icons}>
-        <img className={styles.github} src="github-mark.svg" />
+        <a href="https://github.com/susancantdance">
+          <img className={styles.github} src="github-mark.svg" />
+        </a>
         &nbsp;&nbsp;&nbsp;
-        <img className={styles.github} src="InBug-Black.png" />
+        <a href="https://linkedin.com/in/susanlchen">
+          <img className={styles.github} src="InBug-Black.png" />
+        </a>
       </div>
     </>
   );

@@ -4,14 +4,14 @@ function About() {
   return (
     <>
       <p>
-        Hello! I'm Susan. I'm looking for my next opportunity as a software
+        Hello! I'm Susan & I'm looking for my next opportunity as a software
         engineer.
       </p>
       <p>
-        My experience in tech includes a CS degree from UCLA and an extensive
-        career in product manangement. My technical skills include vanilla HTML,
-        CSS, SQL, and Javascript. I have experience building full stack
-        applications with React, Node.js, and Prisma ORM.
+        My experience in tech includes a CS degree and a successful career in
+        product manangement. My technical skills include vanilla HTML, CSS, SQL,
+        and Javascript and building full stack applications with React, Node.js,
+        and Prisma ORM.
       </p>
       <p>
         {" "}
