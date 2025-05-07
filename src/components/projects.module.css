@@ -86,7 +86,7 @@
     height: auto;
     justify-self: center;
     align-self: center;
-    filter: drop-shadow(4px 4px 4px #f6c98e);
+    /* filter: drop-shadow(4px 4px 4px #f6c98e); */
     transition: none;
   }
 
