@@ -6,51 +6,61 @@ import memory from "../assets/memory.png";
 function Projects() {
   return (
     <div className={styles.container}>
-      <div className={styles.section}>
-        <a href="https://catlog-ten.vercel.app/">
+      <a
+        href="https://catlog-ten.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div className={styles.section}>
           <img className={styles.image} src={blogapi} />
-        </a>
-        <div className={styles.desc}>
-          <a href="https://catlog-ten.vercel.app/" className={styles.name}>
-            <span>Full Stack Cat Blog</span>
-          </a>{" "}
-          Blogging application utilizing React, Node, PrismaORM. Anyone can read
-          blogs or comments, but users must sign up and authenticate to leave a
-          comment. Blog author can peform CRUD operations on all posts and
-          comments. Yes, it's written by a cat.
-        </div>
-      </div>
-      <div className={styles.section}>
-        <a href="https://members-only-production-fa93.up.railway.app/">
+          <div className={styles.desc}>
+            <span className={styles.name}>Full Stack Cat Blog</span>
+            <p>
+              Blogging application utilizing React, Node, PrismaORM, and
+              passport JWT to authenticate. Blog author (ya, a cat) can peform
+              CRUD operations on all posts and comments.
+            </p>
+          </div>
+          <div className={styles.tags}>&nbsp; </div>
+        </div>{" "}
+      </a>
+      <a
+        href="https://members-only-production-fa93.up.railway.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div className={styles.section}>
           <img className={styles.image} src={meangirl} />
-        </a>
-        <div className={styles.desc}>
-          <a
-            href="https://members-only-production-fa93.up.railway.app/"
-            className={styles.name}
-          >
-            <span>Mean Girls Burn Book</span>
-          </a>{" "}
-          Members-only messageboard that authenticates using basic passport.js
-          user/password and encrypting with bcrypt. All users can read the burn
-          book. Users can become members by entering a password on a secret
-          page. Members can then leave a message, but only Regina George can see
-          who wrote what.
+
+          <div className={styles.desc}>
+            <span className={styles.name}>Mean Girls Burn Book</span>
+            <p>
+              Members-only messageboard that authenticates using basic
+              passport.js user/password and encrypting with bcrypt.
+            </p>
+          </div>
+          <div className={styles.tags}> &nbsp;</div>
         </div>
-      </div>
-      <div className={styles.section}>
-        <a href="https://memory-phi-bay.vercel.app/">
+      </a>
+      <a
+        href="https://memory-phi-bay.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div className={styles.section}>
           <img className={styles.image} src={memory} />
-        </a>
-        <div className={styles.desc}>
-          <a href="https://memory-phi-bay.vercel.app/" className={styles.name}>
-            <span>Memory Game</span>
-          </a>{" "}
-          React application that uses public cat api to show 10 random breeds.
-          Players must only click on each cat once as the grid scrambles in
-          order to win. Built to understand concepts of state and React hooks.
+
+          <div className={styles.desc}>
+            <span className={styles.name}>Memory Game</span>
+            <p>
+              React application that uses public cat api to show 10 random
+              breeds. Players must only click on each cat once as the grid
+              scrambles in order to win.
+            </p>
+          </div>
+          <div className={styles.tags}>&nbsp;</div>
         </div>
-      </div>
+      </a>
     </div>
   );
 }
