@@ -1,23 +1,26 @@
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  /* background: green; */
 }
 
 .section {
   display: grid;
   grid-template-columns: 3fr 1fr;
+  justify-items: start;
   gap: 50px;
   margin: 0px 0px 20px 0px;
-}
-
-a {
   text-decoration: none;
   -webkit-text-decoration: none;
   color: black;
   font-weight: 100;
+
+  /* background-color: red; */
 }
 
-a:hover {
+.section:hover {
   cursor: pointer;
   text-decoration: none;
   -webkit-text-decoration: none;
@@ -27,6 +30,10 @@ a:hover {
 .job {
   display: flex;
   flex-direction: column;
+  /* background-color: red; */
+  align-self: start;
+  justify-self: start;
+  /* background-color: green; */
 }
 
 .jobtitle {
@@ -39,6 +46,9 @@ a:hover {
 
 .date {
   font-weight: bold;
+  align-self: right;
+  justify-self: right;
+  /* background-color: blue; */
 }
 
 @media (max-width: 800px) {
@@ -47,11 +57,14 @@ a:hover {
     flex-direction: column;
   }
 
+  .wrapper {
+    flex: 1;
+    align-self: stretch;
+  }
+
   .section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* gap: 50px; */
-    /* margin: 0px 0px 20px 0px; */
   }
 
   .job {

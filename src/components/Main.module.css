@@ -37,7 +37,7 @@ h2 {
   max-height: 20px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 799px) {
   .section {
     scroll-margin-top: 200px;
     color: black;
@@ -46,12 +46,18 @@ h2 {
     font-family: "Roboto", sans-serif;
     font-weight: lighter;
     font-style: normal;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     align-items: start;
-    justify-items: start; */
+    justify-items: start;
     width: 100%;
 
     /* background-color: blueviolet; */
+  }
+
+  .squiggle {
+    /* background-color: bisque; */
+    margin: 0px 0px 0px 0px;
+    max-height: 20px;
   }
 }

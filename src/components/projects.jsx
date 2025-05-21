@@ -21,8 +21,12 @@ function Projects() {
               CRUD operations on all posts and comments.
             </p>
           </div>
-          <div className={styles.tags}>&nbsp; </div>
-        </div>{" "}
+          <div className={styles.tags}>
+            <span className={styles.tag}>react</span>
+            <span className={styles.tag}>node</span>
+            <span className={styles.tag}>postgres</span>
+          </div>
+        </div>
       </a>
       <a
         href="https://members-only-production-fa93.up.railway.app/"
@@ -31,7 +35,6 @@ function Projects() {
       >
         <div className={styles.section}>
           <img className={styles.image} src={meangirl} />
-
           <div className={styles.desc}>
             <span className={styles.name}>Mean Girls Burn Book</span>
             <p>
@@ -39,7 +42,11 @@ function Projects() {
               passport.js user/password and encrypting with bcrypt.
             </p>
           </div>
-          <div className={styles.tags}> &nbsp;</div>
+          <div className={styles.tags}>
+            <span className={styles.tag}>react</span>
+            <span className={styles.tag}>node</span>
+            <span className={styles.tag}>postgres</span>
+          </div>
         </div>
       </a>
       <a
@@ -49,7 +56,6 @@ function Projects() {
       >
         <div className={styles.section}>
           <img className={styles.image} src={memory} />
-
           <div className={styles.desc}>
             <span className={styles.name}>Memory Game</span>
             <p>
@@ -58,7 +64,9 @@ function Projects() {
               scrambles in order to win.
             </p>
           </div>
-          <div className={styles.tags}>&nbsp;</div>
+          <div className={styles.tags}>
+            <span className={styles.tag}>react</span>
+          </div>
         </div>
       </a>
     </div>

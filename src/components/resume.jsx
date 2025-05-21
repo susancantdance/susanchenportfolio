@@ -7,6 +7,7 @@ function Resume() {
         href="http://www.withjoy.com"
         target="_blank"
         rel="noopener noreferrer"
+        className={styles.wrapper}
       >
         <div className={styles.section}>
           <div className={styles.job}>
@@ -23,7 +24,12 @@ function Resume() {
           </div>
         </div>
       </a>
-      <a href="http://www.nurx.com" target="_blank" rel="noopener noreferrer">
+      <a
+        href="http://www.nurx.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={styles.wrapper}
+      >
         <div className={styles.section}>
           <div className={styles.job}>
             <span className={styles.jobtitle}>Senior Product Manager</span>
@@ -39,14 +45,19 @@ function Resume() {
           </div>
         </div>
       </a>
-      <a href="http://www.goodrx.com" target="_blank" rel="noopener noreferrer">
+      <a
+        href="http://www.goodrx.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={styles.wrapper}
+      >
         <div className={styles.section}>
           <div className={styles.job}>
             <span className={styles.jobtitle}>Product Consultant</span>
             <span className={styles.jobcompany}>GoodRx</span>
             <span className={styles.jobdesc}>
               Product management for GoodRx Telehealth Growth team /
-              HeyDoctor.com{" "}
+              HeyDoctor.com
             </span>
           </div>
           <div className={styles.dates}>
@@ -58,6 +69,7 @@ function Resume() {
         href="http://www.fabfitfun.com"
         target="_blank"
         rel="noopener noreferrer"
+        className={styles.wrapper}
       >
         <div className={styles.section}>
           <div className={styles.job}>
@@ -77,6 +89,7 @@ function Resume() {
         href="http://www.theblacktux.com"
         target="_blank"
         rel="noopener noreferrer"
+        className={styles.wrapper}
       >
         <div className={styles.section}>
           <div className={styles.job}>
