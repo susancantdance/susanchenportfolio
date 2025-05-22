@@ -38,9 +38,9 @@
   -webkit-text-decoration: none;
 }
 
-.section:hover > .image {
+/* .section:hover > .image {
   filter: sepia(100%) blur(0px);
-}
+} */
 
 /* .filldiv {
   display: block;
@@ -91,7 +91,7 @@
   align-self: start;
   justify-self: start;
   /* border-radius: 10px; */
-  filter: sepia(100%) blur(1px);
+  filter: sepia(100%);
 }
 
 .desc {
