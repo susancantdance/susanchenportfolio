@@ -149,7 +149,7 @@
   }
 
   .image {
-    filter: sepia(100%);
+    filter: sepia(100%) saturate(40%);
   }
 }
 
@@ -196,7 +196,7 @@
     /* filter: drop-shadow(4px 4px 4px #f6c98e); */
     transition: none;
     object-fit: cover;
-    filter: sepia(100%);
+    filter: sepia(100%) saturate(40%);
   }
 
   .desc {
