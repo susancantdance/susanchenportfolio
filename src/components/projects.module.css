@@ -91,7 +91,7 @@
   align-self: start;
   justify-self: start;
   /* border-radius: 10px; */
-  filter: sepia(100%);
+  filter: sepia(100%) saturate(40%);
 }
 
 .desc {
