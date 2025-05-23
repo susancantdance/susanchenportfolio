@@ -105,7 +105,7 @@ function Resume() {
           </div>
         </div>
       </a>
-      <div className={styles.section}>
+      <div>
         <div className={styles.job}>
           <span className={styles.jobtitle}></span>
           <span className={styles.jobcompany}>*Full Resume upon request</span>
