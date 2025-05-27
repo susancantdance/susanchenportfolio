@@ -14,8 +14,8 @@ function Resume() {
             <span className={styles.jobtitle}>Principal Product Manager</span>
             <span className={styles.jobcompany}>Joy (withjoy.com)</span>
             <span className={styles.jobdesc}>
-              Lead initiative for product expansion into baby registries by
-              owning requirements and managing product scope across 8
+              Led initiative for product expansion into baby registries by
+              owning technical requirements and managing product scope across 8
               engineering teams.{" "}
             </span>
           </div>
@@ -35,8 +35,8 @@ function Resume() {
             <span className={styles.jobtitle}>Senior Product Manager</span>
             <span className={styles.jobcompany}>Nurx / Thirty Madison</span>
             <span className={styles.jobdesc}>
-              Product owner of optimization, growth and product expansion for
-              patient experience engineering team.
+              Product owner of optimization, worked closely with engineers to
+              integrate tracking libraries and define experiment flags.
             </span>
           </div>
 
@@ -53,11 +53,12 @@ function Resume() {
       >
         <div className={styles.section}>
           <div className={styles.job}>
-            <span className={styles.jobtitle}>Product Consultant</span>
+            <span className={styles.jobtitle}>Senior Product Manager</span>
             <span className={styles.jobcompany}>GoodRx</span>
             <span className={styles.jobdesc}>
-              Product management for GoodRx Telehealth Growth team /
-              HeyDoctor.com
+              Drove changes to registration flow and patient intake forms;
+              worked closely with frontend engineers on form validation and
+              state management logic.
             </span>
           </div>
           <div className={styles.dates}>
@@ -76,8 +77,8 @@ function Resume() {
             <span className={styles.jobtitle}>Director of Product</span>
             <span className={styles.jobcompany}>FabFitFun</span>
             <span className={styles.jobdesc}>
-              Director of product team focusing on launching FabFitFun Style and
-              All-Access digital subscriptions.
+              Managed deployment cycles and post-launch QA for Style and
+              All-Access features.
             </span>
           </div>
           <div className={styles.dates}>
