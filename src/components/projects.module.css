@@ -12,6 +12,7 @@
 
 .section {
   display: grid;
+  font-size: 14px;
   grid-template-rows: 2fr 4fr 1fr;
   /* gap: 10px; */
   background-color: rgb(251, 247, 239);
@@ -56,13 +57,13 @@
   display: flex;
   justify-content: center;
   align-self: end;
-  gap: 15px;
+  gap: 12px;
 }
 
 .tag {
   color: goldenrod;
   font-weight: bolder;
-  font-size: 15px;
+  font-size: 12px;
   background-color: rgb(246, 233, 202);
   border-radius: 8px;
   padding: 0px 6px 0px 6px;
@@ -71,6 +72,7 @@
 .name {
   font-weight: bold;
   color: black;
+  font-size: 16px;
 }
 
 /* .name:hover {

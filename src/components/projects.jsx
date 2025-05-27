@@ -16,15 +16,16 @@ function Projects() {
           <div className={styles.desc}>
             <span className={styles.name}>Full Stack Cat Blog</span>
             <p>
-              Blogging application utilizing React, Node, PrismaORM, and
-              passport JWT to authenticate. Blog author (ya, a cat) can peform
-              CRUD operations on all posts and comments.
+              Blogging application utilizing React, Node, PostgreSQL, and
+              Express. Designed Restful API with full CRUD capabilities on all
+              posts and comments.
             </p>
           </div>
           <div className={styles.tags}>
             <span className={styles.tag}>react</span>
             <span className={styles.tag}>node</span>
-            <span className={styles.tag}>postgres</span>
+            <span className={styles.tag}>postgreSQL</span>
+            <span className={styles.tag}>express</span>
           </div>
         </div>
       </a>
@@ -38,14 +39,15 @@ function Projects() {
           <div className={styles.desc}>
             <span className={styles.name}>Mean Girls Burn Book</span>
             <p>
-              Members-only messageboard that authenticates using basic
-              passport.js user/password and encrypting with bcrypt.
+              Developed a full-stack authentication app where users can sign up,
+              log in, and post messages in a private members area.
             </p>
           </div>
           <div className={styles.tags}>
             <span className={styles.tag}>react</span>
             <span className={styles.tag}>node</span>
-            <span className={styles.tag}>postgres</span>
+            <span className={styles.tag}>postgreSQL</span>
+            <span className={styles.tag}>express</span>
           </div>
         </div>
       </a>
@@ -59,13 +61,13 @@ function Projects() {
           <div className={styles.desc}>
             <span className={styles.name}>Memory Game</span>
             <p>
-              React application that uses public cat api to show 10 random
-              breeds. Players must only click on each cat once as the grid
-              scrambles in order to win.
+              Interactive browser-based memory matching game with logic for
+              match checking, game state tracking, and reset functionality.
             </p>
           </div>
           <div className={styles.tags}>
             <span className={styles.tag}>react</span>
+            <span className={styles.tag}>css</span>
           </div>
         </div>
       </a>

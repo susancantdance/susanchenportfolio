@@ -8,16 +8,15 @@ function About() {
         engineer.
       </p>
       <p>
-        My experience in tech includes a CS degree and a successful career in
-        product manangement. My technical skills include vanilla HTML, CSS, SQL,
-        and Javascript and building full stack applications with React, Node.js,
-        and Prisma ORM.
+        My experience includes a CS degree from UCLA and a professional career
+        in product manangement. My technical skills include vanilla HTML, CSS,
+        SQL, and Javascript and building full stack applications with React,
+        Node.js, and PostgreSQL.
       </p>
       <p>
         {" "}
         When I'm not staring at some type of screen, I'm probably doing arts &
-        crafts, visiting a cat cafe, or singing Karaoke (Does that count as a
-        screen?).
+        crafts, petting cats, or singing Karaoke (Does that count as a screen?).
       </p>
     </>
   );
