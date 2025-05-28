@@ -13,7 +13,7 @@
 .section {
   display: grid;
   font-size: 14px;
-  grid-template-rows: 2fr 4fr 1fr;
+  grid-template-rows: 2fr 4fr 1fr 1fr;
   /* gap: 10px; */
   background-color: rgb(251, 247, 239);
   box-shadow: 3px 3px 6px rgb(177, 176, 176);
@@ -33,26 +33,52 @@
 
 .section:hover {
   transform: scale(1.05);
-  cursor: pointer;
   color: black;
   text-decoration: none;
   -webkit-text-decoration: none;
 }
 
-/* .section:hover > .image {
-  filter: sepia(100%) blur(0px);
-} */
+.links {
+  /* background-color: blue; */
+  grid-column: 1 /2;
+  grid-row: 3/ 4;
+  display: flex;
+}
 
-/* .filldiv {
-  display: block;
-  height: 100%;
-  width: 100%;
+.link {
+  padding: 5px;
+  margin: 0px 0px 0px 10px;
+  justify-self: start;
+  align-self: start;
+  cursor: pointer;
+  border-style: dotted;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: goldenrod;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.link > a {
+  color: goldenrod;
   text-decoration: none;
-} */
+  -webkit-text-decoration: none;
+  font-weight: bold;
+}
+
+.link:hover {
+  font-style: italic;
+  background-color: rgb(246, 233, 202);
+}
 
 .tags {
   grid-column: 1 / 2;
-  grid-row: 3 / 4;
+  grid-row: 4 / 5;
   /* background-color: green; */
   display: flex;
   justify-content: center;
@@ -103,7 +129,7 @@
   justify-self: center;
   align-self: start;
   /* background-color: pink; */
-  min-height: 9lh;
+  min-height: 7lh;
 }
 
 /*-------------------------------------------*/
@@ -125,7 +151,7 @@
   .section {
     display: grid;
     grid-template-rows: 2r 4fr 1fr;
-    /* gap: 20px; */
+    gap: 10px;
 
     box-shadow: 3px 3px 6px rgb(177, 176, 176);
     /* border-radius: 10px; */
@@ -139,14 +165,14 @@
 
   .section:hover {
     transform: scale(1.05);
-    cursor: pointer;
+    /* cursor: pointer; */
     color: black;
     text-decoration: none;
     -webkit-text-decoration: none;
   }
 
   .desc {
-    min-height: 7lh;
+    min-height: 4lh;
     /* background-color: red; */
   }
 
@@ -204,6 +230,12 @@
   .desc {
     justify-self: center;
     align-self: center;
+  }
+
+  .links {
+    /* background-color: blue; */
+    align-self: start;
+    min-height: 4lh;
   }
 
   .tags {

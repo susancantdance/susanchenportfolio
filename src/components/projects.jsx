@@ -7,7 +7,7 @@ function Projects() {
   return (
     <div className={styles.container}>
       <a
-        href="https://catlog-ten.vercel.app/"
+        href="https://github.com/susancantdance/cat-be"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -20,6 +20,14 @@ function Projects() {
               Express. Designed Restful API with full CRUD capabilities on all
               posts and comments.
             </p>
+          </div>
+          <div className={styles.links}>
+            <span className={styles.link}>
+              <a href="https://catlog-ten.vercel.app">web</a>
+            </span>
+            <span className={styles.link}>
+              <a href="https://github.com/susancantdance/cat-be">github</a>
+            </span>
           </div>
           <div className={styles.tags}>
             <span className={styles.tag}>react</span>
@@ -43,6 +51,18 @@ function Projects() {
               log in, and post messages in a private members area.
             </p>
           </div>
+          <div className={styles.links}>
+            <span className={styles.link}>
+              <a href="https://members-only-production-fa93.up.railway.app/">
+                web
+              </a>
+            </span>
+            <span className={styles.link}>
+              <a href="https://github.com/susancantdance/members-only">
+                github
+              </a>
+            </span>
+          </div>
           <div className={styles.tags}>
             <span className={styles.tag}>react</span>
             <span className={styles.tag}>node</span>
@@ -64,6 +84,14 @@ function Projects() {
               Interactive browser-based memory matching game with logic for
               match checking, game state tracking, and reset functionality.
             </p>
+          </div>
+          <div className={styles.links}>
+            <span className={styles.link}>
+              <a href="https://memory-phi-bay.vercel.app/">web</a>
+            </span>
+            <span className={styles.link}>
+              <a href="https://github.com/susancantdance/memory">github</a>
+            </span>
           </div>
           <div className={styles.tags}>
             <span className={styles.tag}>react</span>
