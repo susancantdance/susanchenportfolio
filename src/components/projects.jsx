@@ -17,8 +17,7 @@ function Projects() {
             <span className={styles.name}>Full Stack Cat Blog</span>
             <p>
               Blogging application utilizing React, Node, PostgreSQL, and
-              Express. Designed Restful API with full CRUD capabilities on all
-              posts and comments.
+              Express with full CRUD capabilites.
             </p>
           </div>
           <div className={styles.links}>
