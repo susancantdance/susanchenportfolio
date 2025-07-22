@@ -9,9 +9,9 @@ function About() {
       </p>
       <p>
         My experience includes a CS degree from UCLA and a professional career
-        in product manangement. My technical skills include vanilla HTML, CSS,
-        SQL, and Javascript and building full stack applications with React,
-        Node.js, and PostgreSQL.
+        in product manangement. My technical skills include Typescript,
+        Javascript, building full stack applications with React, Node.js, and
+        PostgreSQL.
       </p>
       <p>
         {" "}
