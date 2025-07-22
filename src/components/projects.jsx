@@ -1,11 +1,41 @@
 import styles from "./projects.module.css";
 import blogapi from "../assets/blogapi.png";
-import meangirl from "../assets/meangirls.png";
+// import meangirl from "../assets/meangirls.png";
 import memory from "../assets/memory.png";
 
 function Projects() {
   return (
     <div className={styles.container}>
+      <a
+        href="https://github.com/susancantdance/waldo"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div className={styles.section}>
+          <img className={styles.image} src={blogapi} />
+          <div className={styles.desc}>
+            <span className={styles.name}>Where's Whiskers</span>
+            <p>
+              Where's Waldo-style game with accurate hit detection and feedback
+              mechanisms for gameplay using React.
+            </p>
+          </div>
+          <div className={styles.links}>
+            <span className={styles.link}>
+              <a href="https://waldo-delta.vercel.app/">web</a>
+            </span>
+            <span className={styles.link}>
+              <a href="https://github.com/susancantdance/waldo">github</a>
+            </span>
+          </div>
+          <div className={styles.tags}>
+            <span className={styles.tag}>react</span>
+            <span className={styles.tag}>node</span>
+            <span className={styles.tag}>postgreSQL</span>
+            <span className={styles.tag}>express</span>
+          </div>
+        </div>
+      </a>
       <a
         href="https://github.com/susancantdance/cat-be"
         target="_blank"
@@ -36,7 +66,7 @@ function Projects() {
           </div>
         </div>
       </a>
-      <a
+      {/* <a
         href="https://members-only-production-fa93.up.railway.app/"
         target="_blank"
         rel="noopener noreferrer"
@@ -69,7 +99,7 @@ function Projects() {
             <span className={styles.tag}>express</span>
           </div>
         </div>
-      </a>
+      </a> */}
       <a
         href="https://memory-phi-bay.vercel.app/"
         target="_blank"
