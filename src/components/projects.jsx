@@ -1,6 +1,7 @@
 import styles from "./projects.module.css";
 import blogapi from "../assets/blogapi.png";
 // import meangirl from "../assets/meangirls.png";
+import waldo from "../assets/waldo.png";
 import memory from "../assets/memory.png";
 
 function Projects() {
@@ -12,7 +13,7 @@ function Projects() {
         rel="noopener noreferrer"
       >
         <div className={styles.section}>
-          <img className={styles.image} src={blogapi} />
+          <img className={styles.image} src={waldo} />
           <div className={styles.desc}>
             <span className={styles.name}>Where's Whiskers</span>
             <p>
