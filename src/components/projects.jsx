@@ -7,7 +7,8 @@ import memory from "../assets/memory.png";
 function Projects() {
   return (
     <div className={styles.container}>
-      <a
+      Updating some 3rd party providers, check back later!
+      /*<a
         href="https://github.com/susancantdance/waldo"
         target="_blank"
         rel="noopener noreferrer"
@@ -128,7 +129,7 @@ function Projects() {
             <span className={styles.tag}>css</span>
           </div>
         </div>
-      </a>
+      </a>*/
     </div>
   );
 }
